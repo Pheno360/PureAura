@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+.grotesk {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+  background-color: #0a0a0a;
+  overflow-x: hidden;
+}
+
+.home{
+  border-radius: 59% 99% 70% 100% / 44% 54% 100% 100% ;
+}
+
+.tag{
+  text-shadow: 0 0 10px rgba(0, 68, 255, 0.7), 
+  0 0 20px rgba(0, 79, 248, 0.5), 
+  0 0 30px rgba(0, 110, 255, 0.3);;
+}
+
+.service:hover{
+  scale: 105%;
+}
+
+.links h1:hover{
+  color:skyblue;
+cursor: default;
+}
