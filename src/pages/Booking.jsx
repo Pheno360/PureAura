@@ -80,20 +80,17 @@ else{
     }
 }
 
- 
-
-  
 
   return (
     <>   
-    <div className='h-screen bg-white p-20 grotesk   '>
-    <div className='mb-32 text-center text-4xl font-[500] text-[#313131] grotesk'><h1>Request an Appointment</h1></div>
-    <div className='flex'>
-   <div className=' mb-20 ml-32 w-[25vw] h-[45vh] bg-gradient-to-r from-green-300 via-green-400 to-green-500 scale-125 shadow-2xl rounded-xl p-5'>
+    <div className='md:h-screen h-auto bg-white md:p-20 p-2 grotesk   '>
+    <div className='md:mb-32 mb-10 text-center text-4xl font-[500] text-[#313131] grotesk'><h1>Request an Appointment</h1></div>
+    <div className='flex md:flex-nowrap flex-wrap'>
+   <div className=' mb-20 md:ml-32 ml-0  md:w-[25vw] w-[95vw] h-[45vh] bg-gradient-to-r from-green-300 via-green-400 to-green-500 md:scale-125 scale-100 shadow-2xl rounded-xl p-5'>
     <Calendar date={date} setDate={setDate} />
     </div>
 
-    <div className=' ml-20 -mt-10 text-2xl flex flex-col gap-2'>
+    <div className=' md:ml-20 ml-0 md:p-0 p-2 -mt-10 text-2xl flex flex-col gap-2'>
     <h1 className=''>Spa Services (Body Treatment)</h1>
     <h1 className='text-xl'>Date: <span className='text-green-600 font-[500]'>{date}</span> at 8:00 am- 8:00 pm</h1>
 
@@ -104,8 +101,8 @@ else{
 <div className='h-1.5 w-1.5  shadow-red-600 bg-red-600 rounded-full m-3'></div>
 </div>
 
-<form onSubmit={handleSubmit}>
-   <div className='flex gap-2'>
+<form  onSubmit={handleSubmit}>
+   <div className='flex md:flex-row flex-col gap-2'>
     <TextField onChange={(e) => setcustName(e.target.value)} value={custName} label="Name" />
     <TextField type='email' onChange={(e) => setEmail(e.target.value)} value={email} label="Email" />
     </div>

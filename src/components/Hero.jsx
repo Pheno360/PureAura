@@ -56,11 +56,11 @@ const Hero = () => {
     })
   return (
     <>
-         <h1 className=' text-white mt-12 text-center text-[5vw] font-[600]'>Welcome To <span className='tag text-blue-400'>PURE AURA</span></h1>
+         <h1 className=' text-white md:mt-12 mt-4 text-center md:text-[5vw] text-[7vh] font-[600]'>Welcome To <span className='tag text-blue-400'>PURE AURA</span></h1>
 
          <div className=' flex justify-center mt-4 '>
-       <div className='home w-96 h-80 text-white bg-gradient-to-r from-[#0035a8] via-[#5700f8] to-[#9900ff] ' >
-        <div className='text flex flex-col gap-2 h-10  overflow-hidden relative top-32 left-16 text-4xl font-[500]'>
+       <div className='home md:w-96 md:h-80  w-72 h-60 text-white bg-gradient-to-r from-[#0035a8] via-[#5700f8] to-[#9900ff] ' >
+        <div className='text flex flex-col md:gap-2 gap-3 h-10  overflow-hidden relative md:top-32 md:left-0 top-28 left-2 text-center md:text-4xl text-3xl font-[500]'>
             <h1 className='services'>SPA & BEAUTY</h1>
             <h1 className='services'>BODY TREATMENT</h1>
             <h1 className='services'>HEALTHCARE</h1>
@@ -69,11 +69,11 @@ const Hero = () => {
        </div>
        </div>
 
-       <div className='flex justify-center mt-7'>
-       <p className=' w-1/2 text-[#ececec] text-center  text-3xl grotesk font-[400] '>&nbsp;&nbsp;&nbsp;Discover a sanctuary of serenity at Pure Aura, where your well-being is our priority.</p>
+       <div className='flex justify-center md:mt-7 mt-5'>
+       <p className=' md:w-1/2 w-full text-[#ececec] text-center  md:text-3xl text-xl grotesk font-[400] '>&nbsp;&nbsp;&nbsp;Discover a sanctuary of serenity at Pure Aura, where your well-being is our priority.</p>
        </div>
 
-       <div className='text-[#ececec] flex justify-center text-2xl font-[500] mt-4'>
+       <div className='text-[#ececec] flex justify-center md:text-2xl text-xl font-[500] mt-4'>
         <button className='bg-[#1b1b1b] hover:shadow hover:shadow-blue-500 transition-all px-4 py-2 rounded-full '>About Us</button>
        </div>
     

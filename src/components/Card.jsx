@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Card = ({title,image}) => {
   return (
-    <SpotlightCard className="custom-spotlight-card flex flex-col h-[50vh] w-[20vw] bg-[#ddd] rounded-xl p-4 text-white" spotlightColor="rgba(0, 229, 255, 0.2)">
+    <SpotlightCard className="custom-spotlight-card flex flex-col  h-[50vh] md:w-[20vw] w-[65vw] bg-[#ddd] rounded-xl p-4 text-white" spotlightColor="rgba(0, 229, 255, 0.2)">
     <div className='h-[25vh] bg-red-200 overflow-hidden '><img className=' w-full h-full object-cover' src={image} alt="" /></div>
             <div>
                 <h1>Body Treatment</h1>
