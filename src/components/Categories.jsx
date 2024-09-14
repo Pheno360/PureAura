@@ -26,7 +26,7 @@ const Categories = () => {
       <h1><i className="ri-arrow-right-s-line"></i>Short Services</h1>
       <h1><i className="ri-arrow-right-s-line"></i>Special Packages</h1>
 
-      <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button>
+      <Link to='/booking'> <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button></Link>
       </div>
       </div>
 
@@ -34,7 +34,7 @@ const Categories = () => {
         <img className=' scale-125' src={assets.SpaImage} alt="" />
       </div>
       <div className='mx-auto mt-2 inline md:hidden'>
-      <Link to="/booking"><button className=' px-2 py-2 border hover:bg-[#b3b3b3] font-[500] '>Book Now</button></Link>
+      <Link to="/booking"><button className=' px-2 py-2 border hover:bg-[#b3b3b3] font-[500] mt-4 '>Book Now</button></Link>
       </div>
     
       
@@ -58,7 +58,7 @@ const Categories = () => {
       <h1><i className="ri-arrow-right-s-line"></i>Steam</h1>
       <h1><i className="ri-arrow-right-s-line"></i>Ice Bath</h1>
 
-      <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button>
+      <Link to='/booking'> <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button></Link>
       </div>
       </div>
 
@@ -72,7 +72,7 @@ const Categories = () => {
 
       </div>
 
-      <div className='h-0.5 bg-black '></div>
+      <div className='h-0.5 bg-black md:mt-0 mt-4 '></div>
 
       {/* ---------------Service 3----------------- */}
       <div className='service flex  md:flex-nowrap flex-wrap h-[50vh] p-4 transition-all  md:ml-0 -ml-10'>
@@ -90,7 +90,7 @@ const Categories = () => {
       <h1><i className="ri-arrow-right-s-line"></i>Short Services</h1>
       <h1><i className="ri-arrow-right-s-line"></i>Special Packages</h1>
 
-      <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button>
+      <Link to='/booking'> <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button></Link>
       </div>
       </div>
 
@@ -121,7 +121,7 @@ const Categories = () => {
       <h1><i className="ri-arrow-right-s-line"></i>Short Services</h1>
       <h1><i className="ri-arrow-right-s-line"></i>Special Packages</h1>
 
-      <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button>
+      <Link to='/booking'> <button className='mt-7 border-b border-blue-500 text-blue-500  '>Learn More<i className="ri-arrow-right-circle-line ml-2 font-[400] "></i></button></Link>
       </div>
       </div>
 

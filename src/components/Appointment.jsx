@@ -9,10 +9,10 @@ export default function Appointment() {
   return (
     <div className=' flex md:flex-nowrap flex-wrap justify-evenly bg-white md:h-[80vh] h-[120vh]  '>
 
-    <div className='md:mt-32 -mt-52 md:ml-20 ml-0 md:w-[25vw] w-[92vw] h-[45vh] bg-gradient-to-r from-green-300 via-green-400 to-green-500 md:scale-125 scale-100 shadow-2xl rounded-xl p-5'>
+    <div className='md:mt-32 -mt-52 md:ml-20 ml-0 md:w-[25vw] w-[92vw] h-[46vh] bg-gradient-to-r from-green-300 via-green-400 to-green-500 md:scale-125 scale-100 shadow-2xl rounded-xl p-5'>
     <Calendar />
     <h1 className='md:hidden inline mt-5 text-xl font-[500]'>For Best offers visit us Today...! </h1>
-    <Link to="/booking"> <button className='md:hidden inline px-3 py-2 hover:bg-blue-700 transition-all bg-[#0080f8] rounded-lg text-white mt-5 font-[500]'>Contact Us</button></Link>
+    <Link to="/booking"> <button className='md:hidden inline px-3 py-2 hover:bg-blue-700 transition-all bg-[#108bff] rounded-lg text-white mt-5 font-[500] md:ml-0 ml-24'>Contact Us</button></Link>
     </div>
       
       <div className='md:w-1/2 w-3/4 md:order-last order-first'>

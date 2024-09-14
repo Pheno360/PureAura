@@ -2,6 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React from 'react'
 import { assets } from '../assets/assets';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 
@@ -74,7 +75,7 @@ const Hero = () => {
        </div>
 
        <div className='text-[#ececec] flex justify-center md:text-2xl text-xl font-[500] mt-4'>
-        <button className='bg-[#1b1b1b] hover:shadow hover:shadow-blue-500 transition-all px-4 py-2 rounded-full '>About Us</button>
+        <Link to='/booking'><button className='bg-[#1b1b1b] hover:shadow hover:shadow-blue-500 transition-all px-4 py-2 rounded-full '>About Us</button></Link>
        </div>
     
    
