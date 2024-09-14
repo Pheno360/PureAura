@@ -51,7 +51,7 @@ const Navbar = () => {
   return (
     <>
     <div className=' menu fixed z-10 transform translate-x-[100%] inline md:hidden'>
-    <div className='h-[90vh] w-[100vw] bg-white'>
+    <div className='h-[100vh] w-[100vw] bg-white'>
       <h1 onClick={handleExit} className='flex justify-end p-5 text-2xl '><i class="ri-close-large-line"></i></h1>
       <div className='flex flex-col gap-5 text-2xl mt-10 ml-20 '>
       <Link onClick={handleExit} to="/"><h1 className=' border-b border-black'>Home</h1></Link>
